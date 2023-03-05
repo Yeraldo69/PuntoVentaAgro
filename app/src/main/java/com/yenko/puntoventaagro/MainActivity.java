@@ -38,7 +38,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void iniciarSesion(View v){
         /* Proceso de inicio de sesion */
-        return;
+        /* Cerramos la ventana actual */
+        this.finish();
+        /* Hacemos un Intent para pasar a la ventana principal cuando
+         * se toque el boton de inciar sesion */
+        Intent intento = new Intent(this, VentanaPrincipal.class);
+        startActivity(intento);
     }
 
 

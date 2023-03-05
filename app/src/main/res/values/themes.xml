@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.PuntoVentaAgro" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="Theme.PuntoVentaAgro" parent="Theme.MaterialComponents.DayNight">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/yellow_500</item>
         <item name="colorPrimaryVariant">@color/yellow_700</item>
@@ -12,6 +12,8 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <!-- COLORES DE TEXTO DEL TITULO EN LAS VENTANAS -->
         <item name="titleTextColor">@color/gray700</item>
     </style>
 
